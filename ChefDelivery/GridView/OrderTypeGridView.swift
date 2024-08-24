@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct OrderTypeGridView: View {
-    // Lista dos Tipos de Pedidos
+    // Lista dos Tipos de Pedidos temporário
     let orders = ["Restaurantes", "Farmácias", "Descontos", "Gourmet", "Mercados", "Pet", "Bebidas"]
     
     var body: some View {
