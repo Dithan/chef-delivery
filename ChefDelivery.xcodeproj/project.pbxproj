@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7924F05F2C7A2F0B0072B719 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7924F05E2C7A2F0B0072B719 /* OrderTypeGridView.swift */; };
+		7924F0622C7A419D0072B719 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7924F0612C7A419D0072B719 /* OrderType.swift */; };
+		7924F0642C7A42500072B719 /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7924F0632C7A42500072B719 /* DataSourceMock.swift */; };
+		7924F0662C7A45EE0072B719 /* OrderTipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7924F0652C7A45EE0072B719 /* OrderTipeView.swift */; };
 		7926A4D42C7973210049230A /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7926A4D32C7973210049230A /* NavigationBar.swift */; };
 		7948BF7E2C78AF18008BBE39 /* ChefDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948BF7D2C78AF18008BBE39 /* ChefDeliveryApp.swift */; };
 		7948BF802C78AF18008BBE39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948BF7F2C78AF18008BBE39 /* ContentView.swift */; };
@@ -17,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		7924F05E2C7A2F0B0072B719 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
+		7924F0612C7A419D0072B719 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		7924F0632C7A42500072B719 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
+		7924F0652C7A45EE0072B719 /* OrderTipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTipeView.swift; sourceTree = "<group>"; };
 		7926A4D32C7973210049230A /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		7948BF7A2C78AF18008BBE39 /* ChefDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7948BF7D2C78AF18008BBE39 /* ChefDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryApp.swift; sourceTree = "<group>"; };
@@ -40,8 +46,18 @@
 			isa = PBXGroup;
 			children = (
 				7924F05E2C7A2F0B0072B719 /* OrderTypeGridView.swift */,
+				7924F0652C7A45EE0072B719 /* OrderTipeView.swift */,
 			);
 			path = GridView;
+			sourceTree = "<group>";
+		};
+		7924F0602C7A416E0072B719 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7924F0612C7A419D0072B719 /* OrderType.swift */,
+				7924F0632C7A42500072B719 /* DataSourceMock.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7926A4D12C7972C70049230A /* NavigationBar */ = {
@@ -81,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				7926A4D22C7972E40049230A /* App */,
+				7924F0602C7A416E0072B719 /* Model */,
 				7926A4D12C7972C70049230A /* NavigationBar */,
 				7924F05D2C7A2E680072B719 /* GridView */,
 				7948BF832C78AF1A008BBE39 /* Preview Content */,
@@ -167,7 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7924F0622C7A419D0072B719 /* OrderType.swift in Sources */,
 				7948BF802C78AF18008BBE39 /* ContentView.swift in Sources */,
+				7924F0642C7A42500072B719 /* DataSourceMock.swift in Sources */,
+				7924F0662C7A45EE0072B719 /* OrderTipeView.swift in Sources */,
 				7924F05F2C7A2F0B0072B719 /* OrderTypeGridView.swift in Sources */,
 				7948BF7E2C78AF18008BBE39 /* ChefDeliveryApp.swift in Sources */,
 				7926A4D42C7973210049230A /* NavigationBar.swift in Sources */,
