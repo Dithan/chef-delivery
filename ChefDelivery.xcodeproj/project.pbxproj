@@ -12,6 +12,10 @@
 		7924F0642C7A42500072B719 /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7924F0632C7A42500072B719 /* DataSourceMock.swift */; };
 		7924F0662C7A45EE0072B719 /* OrderTipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7924F0652C7A45EE0072B719 /* OrderTipeView.swift */; };
 		7926A4D42C7973210049230A /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7926A4D32C7973210049230A /* NavigationBar.swift */; };
+		792D30542C7CA6B500B69690 /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792D30532C7CA6B500B69690 /* CarouselItemView.swift */; };
+		792D30582C7CB02E00B69690 /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792D30572C7CB02E00B69690 /* CarouselTabView.swift */; };
+		792D305B2C7CB28400B69690 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792D305A2C7CB28400B69690 /* StoreItemView.swift */; };
+		792D305D2C7CB54A00B69690 /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792D305C2C7CB54A00B69690 /* StoresContainerView.swift */; };
 		7948BF7E2C78AF18008BBE39 /* ChefDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948BF7D2C78AF18008BBE39 /* ChefDeliveryApp.swift */; };
 		7948BF802C78AF18008BBE39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948BF7F2C78AF18008BBE39 /* ContentView.swift */; };
 		7948BF822C78AF1A008BBE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7948BF812C78AF1A008BBE39 /* Assets.xcassets */; };
@@ -24,6 +28,10 @@
 		7924F0632C7A42500072B719 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
 		7924F0652C7A45EE0072B719 /* OrderTipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTipeView.swift; sourceTree = "<group>"; };
 		7926A4D32C7973210049230A /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		792D30532C7CA6B500B69690 /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
+		792D30572C7CB02E00B69690 /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
+		792D305A2C7CB28400B69690 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
+		792D305C2C7CB54A00B69690 /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
 		7948BF7A2C78AF18008BBE39 /* ChefDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7948BF7D2C78AF18008BBE39 /* ChefDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryApp.swift; sourceTree = "<group>"; };
 		7948BF7F2C78AF18008BBE39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +85,24 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		792D30522C7CA68700B69690 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				792D30532C7CA6B500B69690 /* CarouselItemView.swift */,
+				792D30572C7CB02E00B69690 /* CarouselTabView.swift */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		792D30592C7CB25D00B69690 /* StoresView */ = {
+			isa = PBXGroup;
+			children = (
+				792D305A2C7CB28400B69690 /* StoreItemView.swift */,
+				792D305C2C7CB54A00B69690 /* StoresContainerView.swift */,
+			);
+			path = StoresView;
+			sourceTree = "<group>";
+		};
 		7948BF712C78AF18008BBE39 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +126,8 @@
 				7924F0602C7A416E0072B719 /* Model */,
 				7926A4D12C7972C70049230A /* NavigationBar */,
 				7924F05D2C7A2E680072B719 /* GridView */,
+				792D30522C7CA68700B69690 /* CarouselView */,
+				792D30592C7CB25D00B69690 /* StoresView */,
 				7948BF832C78AF1A008BBE39 /* Preview Content */,
 				7948BF812C78AF1A008BBE39 /* Assets.xcassets */,
 			);
@@ -188,9 +216,13 @@
 				7948BF802C78AF18008BBE39 /* ContentView.swift in Sources */,
 				7924F0642C7A42500072B719 /* DataSourceMock.swift in Sources */,
 				7924F0662C7A45EE0072B719 /* OrderTipeView.swift in Sources */,
+				792D305D2C7CB54A00B69690 /* StoresContainerView.swift in Sources */,
 				7924F05F2C7A2F0B0072B719 /* OrderTypeGridView.swift in Sources */,
+				792D305B2C7CB28400B69690 /* StoreItemView.swift in Sources */,
 				7948BF7E2C78AF18008BBE39 /* ChefDeliveryApp.swift in Sources */,
+				792D30542C7CA6B500B69690 /* CarouselItemView.swift in Sources */,
 				7926A4D42C7973210049230A /* NavigationBar.swift in Sources */,
+				792D30582C7CB02E00B69690 /* CarouselTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

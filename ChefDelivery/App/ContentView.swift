@@ -14,8 +14,10 @@ struct ContentView: View {
                 .padding(.horizontal, 15)
             
             ScrollView(/*@START_MENU_TOKEN@*/.vertical/*@END_MENU_TOKEN@*/, showsIndicators: false, content: {
-                VStack{
+                VStack(spacing: 20){
                     OrderTypeGridView()
+                    CarouselTabView()
+                    StoresContainerView()
                 }
             })
             
